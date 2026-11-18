@@ -1,5 +1,5 @@
 # Ex. No: 6 Identifying MAC and IP Addresses Using Packet Tracer
-# Date:
+# Date:17/11/2026
 ________________________________________
 # Objective
 To use Cisco Packet Tracer simulation mode to capture and analyze MAC and IP address information for both local and remote network communication.
@@ -10,6 +10,10 @@ ________________________________________
 •	PCs, switches, router, hub, and wireless access point (as per given setup)<br>
 ________________________________________
 # Network Topology Diagram
+<img width="1901" height="1131" alt="image" src="https://github.com/user-attachments/assets/397102b2-f04c-4400-85c1-2fe75a4b3e9e" />
+
+
+
 # Description:
 •	The topology contains a local network (172.16.31.0/24) connected to a remote network (10.10.10.0/24) via a router.<br>
 •	Devices include PCs, switches, hub, and wireless AP.<br>
@@ -49,8 +53,18 @@ Switch1	000C:85CC:1DA7	00D0:D311:C788	N/A	N/A<br>
 ________________________________________
 # Output (Screenshots)
 •	PDU details for local communication<br>
+<img width="1918" height="1133" alt="image" src="https://github.com/user-attachments/assets/626f5a49-936a-4254-b5a9-8f4fc0e0e522" />
+<img width="1908" height="1132" alt="image" src="https://github.com/user-attachments/assets/9cc5febb-6b44-42e0-ba15-a70b1cb53848" />
+<img width="1908" height="1132" alt="image" src="https://github.com/user-attachments/assets/850e00f9-db93-4ed3-b09a-da98d13d13ad" />
+
+
 •	PDU details for remote communication<br>
+<img width="1907" height="1142" alt="image" src="https://github.com/user-attachments/assets/377dfd7e-593e-43ed-a2bf-7001c2b41420" />
+
+
 •	Tables showing MAC/IP changes through each device<br>
+<img width="690" height="194" alt="image" src="https://github.com/user-attachments/assets/a2141c79-8bed-4176-a82e-c7eaeb08110f" />
+
 ________________________________________
 # Result
 Successfully captured and analyzed MAC and IP addresses for both local and remote communications. Verified that MAC addresses change at each hop while IP addresses remain constant from source to destination.
