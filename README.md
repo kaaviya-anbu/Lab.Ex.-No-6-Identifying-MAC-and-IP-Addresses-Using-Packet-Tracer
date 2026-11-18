@@ -1,5 +1,5 @@
 # Ex. No: 6 Identifying MAC and IP Addresses Using Packet Tracer
-# Date:
+# Date:17/11/2026
 ________________________________________
 # Objective
 To use Cisco Packet Tracer simulation mode to capture and analyze MAC and IP address information for both local and remote network communication.
@@ -10,6 +10,8 @@ ________________________________________
 •	PCs, switches, router, hub, and wireless access point (as per given setup)<br>
 ________________________________________
 # Network Topology Diagram
+<img width="1901" height="1131" alt="image" src="https://github.com/user-attachments/assets/282b3564-f52e-43b2-893a-de5647431ee7" />
+
 # Description:
 •	The topology contains a local network (172.16.31.0/24) connected to a remote network (10.10.10.0/24) via a router.<br>
 •	Devices include PCs, switches, hub, and wireless AP.<br>
@@ -49,8 +51,21 @@ Switch1	000C:85CC:1DA7	00D0:D311:C788	N/A	N/A<br>
 ________________________________________
 # Output (Screenshots)
 •	PDU details for local communication<br>
+
+<img width="1918" height="1133" alt="image" src="https://github.com/user-attachments/assets/38afe285-2624-44a6-9edc-c0824f365f32" />
+
+
+<img width="1908" height="1132" alt="image" src="https://github.com/user-attachments/assets/b3894728-ad7b-48fc-9ff7-66a8c9dfed56" />
+
+<img width="1908" height="1132" alt="image" src="https://github.com/user-attachments/assets/f3ede6e7-cb61-4ed9-9456-2b673b0ebdf1" />
+
 •	PDU details for remote communication<br>
+<img width="1906" height="1126" alt="image" src="https://github.com/user-attachments/assets/425570cc-ced8-4cf2-9414-c30b0b65d883" />
+
+
 •	Tables showing MAC/IP changes through each device<br>
+<img width="690" height="194" alt="image" src="https://github.com/user-attachments/assets/cc5d363f-d673-4d76-b773-234cad6e7134" />
+
 ________________________________________
 # Result
 Successfully captured and analyzed MAC and IP addresses for both local and remote communications. Verified that MAC addresses change at each hop while IP addresses remain constant from source to destination.
